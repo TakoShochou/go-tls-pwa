@@ -1,0 +1,22 @@
+{
+    "name": "demo pwa",
+    "shot_name": "demo",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "tauri.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "tauri.svg",
+            "sizes": "512x512",
+            "type": "image/svg"
+        }
+    ],
+    "background_color": "dodgerblue",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "display": "standalone"
+}

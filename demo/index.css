@@ -1,0 +1,44 @@
+:root {
+    --bg: #00628b;
+    --primary: #E6E6DC;
+    --mute: #81A594;
+}
+
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: var(--bg)
+}
+
+.install-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    border: 0;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: var(--primary);
+    background: var(--mute);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.datetime {
+    font-family: monospace;
+    font-size: 3rem;
+    color: var(--primary);
+}
+
